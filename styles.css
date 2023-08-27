@@ -1,9 +1,10 @@
 body {
-    background: white;
+    background: rgb(235, 228, 228);
     padding: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* cool colour: 235, 228, 228 */
 
 nav{
     display: flex;
@@ -33,13 +34,48 @@ nav{
  }
 
  #home-page{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
     padding-top: 175px;
     padding-bottom: 50px;
+    max-width: 900px;
+    margin: 0 auto;
  }
 
+ /*#home-page h1 {
+    max-width: 100px;
+ }
+ */
+
  #home-page img{
-    margin-right: 500px;
-    border-radius: 90%;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
     width:200px;
  }
+
+ #books {
+    width: 10px;
+ }
+
+ #tech-stack {
+    margin-top: 105px;
+ }
+
+
+ #tech-stack img {
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 0px;
+    vertical-align: middle;
+ }
+
+#cpp {
+    margin-bottom: 5px;
+ }
+
+#js {
+    margin-bottom: 5px;
+}
