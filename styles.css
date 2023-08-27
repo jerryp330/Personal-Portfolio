@@ -1,0 +1,32 @@
+body {
+    background: white;
+    padding: 45px;
+}
+
+
+nav{
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+ }
+
+ .left-nav {
+    flex:1 1 200px;
+ }
+
+.right-nav a {
+    margin-right: 55px;
+    display: inline-block;
+   text-align: center;
+   padding: 14px;
+   color: inherit;
+   text-decoration: none;
+   font-weight: bolder;
+ }
+
+ .right-nav a:hover {
+    color:rgb(20, 124, 252);
+ }
