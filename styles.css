@@ -1,6 +1,7 @@
 body {
     background: white;
     padding: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -20,13 +21,25 @@ nav{
 .right-nav a {
     margin-right: 55px;
     display: inline-block;
-   text-align: center;
-   padding: 14px;
-   color: inherit;
-   text-decoration: none;
-   font-weight: bolder;
+    text-align: center;
+    padding: 14px;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bolder;
  }
 
  .right-nav a:hover {
     color:rgb(20, 124, 252);
+ }
+
+ #home-page{
+    text-align: center;
+    padding-top: 175px;
+    padding-bottom: 50px;
+ }
+
+ #home-page img{
+    margin-right: 500px;
+    border-radius: 90%;
+    width:200px;
  }
