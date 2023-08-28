@@ -28,6 +28,7 @@ nav{
     flex:1 1 200px;
     margin-left: 30px;
     padding-right: 300px;
+    margin-top: 14px;
  }
 
 a {
@@ -69,12 +70,21 @@ a:hover {
     width:200px;
  }
 
- #books {
-    width: 10px;
+ #home-page a img {
+    width: 45px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: auto;
  }
 
+ #home-page a #giticon-link {
+    width: 45px;
+    border-radius: 50%;
+ }
+ 
+
  #tech-stack {
-    margin-top: 105px;
+    margin-top: 50px;
  }
 
 
@@ -184,6 +194,34 @@ p.cstock {
     vertical-align: text-top;
 }
 
+#contact-page {
+    background-color: white;
+    padding-top: 95px;
+}
+
+footer {
+    background-color: rgb(54, 54, 58);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#reach {
+    display: none;
+}
+
+#contact-page h1 {
+    margin-right: 100px
+}
+
+#contact-page h2 {
+    font-size: 1.1em;
+}
+
+.contactlink {
+    font-weight: lighter;
+}
 /* trying smth that doesnt work :(
 .tooltip {
     position: relative;
