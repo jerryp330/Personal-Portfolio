@@ -22,3 +22,29 @@ function showText(event) {
         document.body.removeChild(tooltip); // Remove the tooltip when mouse leaves the icon
     });
 }
+
+// Creating a github element link. I could turn this into a function, and call it for each project when i add more.
+
+/*
+var githubDiv = document.createElement("div");
+githubDiv.className = "giticon"; 
+
+var textSpan = document.createElement("span");
+textSpan.innerHTML = "<strong>Code </strong>";
+githubDiv.appendChild(textSpan);
+
+var githubIcon = document.createElement("img");
+githubIcon.className = "git-image"
+githubIcon.src = "images/github-icon.png"; 
+githubIcon.alt = "GitHub Icon";
+githubDiv.appendChild(githubIcon);
+
+var githubLink = document.createElement("a");
+githubLink.href = "https://github.com/jerryp330/CompanyStocker-JRACI";
+githubDiv.appendChild(githubLink);
+
+var projects = document.querySelectorAll(".project");
+
+// appending it to project1
+var project1 = document.getElementById("project1");
+document.body.appendChild(githubDiv)

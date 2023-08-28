@@ -8,6 +8,10 @@ body {
 
 /* cool colour: 235, 228, 228 */
 
+img {
+    box-shadow: gray 0 0 10px;
+}
+
 nav{
     display: flex;
     position: fixed;
@@ -26,18 +30,20 @@ nav{
     padding-right: 300px;
  }
 
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bolder;
+}
 .right-nav a {
     margin-right: 25px;
     margin-left: -20px;
     display: inline-block;
     text-align: center;
     padding: 14px;
-    color: inherit;
-    text-decoration: none;
-    font-weight: bolder;
  }
 
- .right-nav a:hover {
+a:hover {
     color:rgb(20, 124, 252);
  }
 
@@ -103,19 +109,89 @@ nav{
     margin-right: -380px;
 }
 
+
 #text2 {
     margin-left: 400px;
     max-width: 550px;
     margin-top: -120px;
 }
 
+#project-page{
+    align-items: flex-start;
+    justify-content: initial;
+    max-width: 900px;
+}
+
+#text3 {
+    margin-top: -80px;
+}
+#text3 p {
+    margin-right: -800px;
+}
+
+#stockpic{
+    position: relative;
+    width: 470px;
+    margin-top: 100px;
+    margin-left: -240px;
+    border-radius: 10%;
+    box-shadow: gray 0 0 30px;
+}
+
+.cstock {
+    display: flex;
+    position: relative;
+    max-width: 500px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+p.cstock {
+    margin-top: -5px;
+    margin-bottom: 45px;
+}
+
+.highlight-box {
+    background-color: yellow;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: yellow 0 0 50px;
+}
+
+.git-image {
+    width: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.git-link img {
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+
+.git-link {
+    margin-left: 175px;
+    display: inline-block; /* Make the container inline-block for vertical alignment */
+    vertical-align: middle; /* Align the container vertically */
+}
+
+.git-text {
+    position: relative;
+    margin-right: 5px; /* Add some spacing between text and image */
+    margin-top: -200px;
+    vertical-align: text-top;
+}
+
+/* trying smth that doesnt work :(
 .tooltip {
     position: relative;
     display: inline-block;
 }
 
 .tooltip::after {
-    content: attr(data-tooltip); /* Get tooltip text from data-tooltip attribute */
+    content: attr(data-tooltip); /* Get tooltip text from data-tooltip attribute 
     position: absolute;
     bottom: 100%;
     left: 50%;
@@ -134,3 +210,6 @@ nav{
     visibility: visible;
     opacity: 1;
 }
+*/
+
+
